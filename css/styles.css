@@ -1,0 +1,175 @@
+/* styles.css */
+
+/* Add some styling for the body */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0px;
+  opacity: 1;
+}
+
+/* Add a header at the top of the page */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 7.5% 0px 7.5%;
+  border-bottom: 1px solid black;
+}
+
+/* Add styles for the header links and input field */
+header a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+}
+
+header input {
+  width: 118px;
+  height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+
+/* Adding navigation thoruout the sections of the website */
+.icons .login::after {
+  color: rgb(183, 179, 179);
+  display: inline-block;
+  content: '|';
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add styles for the navigation icons in the header */
+.nav-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-icons a {
+  border-right: 1px #333;
+}
+
+nav {
+  padding-left: 3%;
+}
+
+/* Add styles for the navigation items */
+.nav-items ol {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #333;
+}
+
+.nav-item a::after {
+  display: inline-block;
+  color: #000;
+  content: '/';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+
+/* Add a main section for the content */
+main {
+  padding: 2% 7.5%;
+  background-color: #ECEFF1;
+}
+
+/* Style the product grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 3fr));
+  grid-gap: 0px;
+}
+
+/* Style the individual products */
+.product {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: auto;
+  /* Add the hover animation */
+  transition: box-shadow 0.3s;
+  /* Add styles to position the button at the bottom right corner of the div */
+  position: relative;
+  height: 250px;
+}
+
+/* Add a hover effect to the products */
+.product:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Organizing the product info */
+.product-info {
+  display: flex;
+  align-self: flex-start;
+}
+
+.product-info h4 {
+  position: absolute;
+  left: 0px;
+  bottom: 7px;
+}
+
+.product-info p {
+  position: absolute;
+  top: -6%;
+  background-color: white;
+  font-size: 14px;
+  box-shadow: 0px 0px 10px rgba(85, 64, 64, 0.1);
+}
+
+img {
+  width: 205px;
+  height: 200px;
+}
+
+/* Style for the button */
+button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 3px 9px;
+  background-color: rgb(154, 164, 177);
+  color: #fff;
+  border: 0;
+  border-radius: 7px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Add a footer at the bottom of the page */
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: small;
+  background: rgb(51,51,51);
+  background: linear-gradient(0deg, rgba(51,51,51,1) 0%, rgba(80,80,80,1) 43%, rgba(100,100,100,1) 54%, rgba(169,169,169,1) 76%, rgba(255,255,255,1) 100%); 
+}
