@@ -108,8 +108,7 @@ main {
 
 /* Style the individual products */
 .product {
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #dfdfdf;
   padding: auto;
   /* Add the hover animation */
   transition: box-shadow 0.3s;
