@@ -1,6 +1,6 @@
 # Overview
 
-This ecommerce layout is a simple and easy-to-use design that allows users to browse a catalog of products, view product descriptions, and items in a shopping cart.
+This ecommerce layout is a simple and easy-to-use design that allows users to browse a catalog of products, view product descriptions, and items in a shopping cart. It was created as part of an exercise for the DIN22SP class.
 
 # Features
 
