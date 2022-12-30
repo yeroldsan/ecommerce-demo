@@ -100,19 +100,17 @@ main {
 }
 
 /* Style the product grid */
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 3fr));
-  grid-gap: 0px;
+.container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
 }
 
 /* Style the individual products */
 .product {
   background-color: #dfdfdf;
   padding: auto;
-  /* Add the hover animation */
   transition: box-shadow 0.3s;
-  /* Add styles to position the button at the bottom right corner of the div */
   position: relative;
   height: 250px;
 }
