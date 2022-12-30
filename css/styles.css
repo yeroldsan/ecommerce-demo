@@ -115,7 +115,8 @@ main {
   margin: 2%;
   transition: box-shadow 0.3s;
   position: relative;
-  height: 250px;
+  width: 225px;
+  height: 275px;
   border-radius: 15px;
 }
 
@@ -147,8 +148,8 @@ main {
 }
 
 img {
-  width: 225px;
-  height: 225px;
+  width: 100%;
+  height: auto;
 }
 
 /* Style for the button */
